@@ -1,25 +1,41 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --primary-color: #08c;
-    --secondary-color: #fff;
+    --primary: #08c;
+    --secondary: #fff;
+    --yellow: #edc52f;
 
 }
+
+ion-icon{
+    color: #ffe600;
+}
+
 html.light{
     --primary: #08c;
 }
 
 html.dark{
-    --primary: #000;
+    --primary: #4c4c4c;
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'sans-serif';
+    font-family: 'Work sans', sans-serif;
+}
+
+.navbar{
+    background: var();
 }
 
 .main{
     width: 100vw;
     height: 100vh;
+    background: var(--primary);
+    transition: .5s;
+}
+
+.img-welcome path{
+    fill: var(--yellow);
 }
